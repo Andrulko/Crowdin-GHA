@@ -15,10 +15,7 @@ jobs:
           upload_sources: true
           upload_translations: false
           download_translations: false
-          download_sources: true
-          download_sources_args: --reviewed -c crowdin.yml
           create_pull_request: false
-          localization_branch_name: main
           config: crowdin.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
