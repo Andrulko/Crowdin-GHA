@@ -12,7 +12,7 @@ jobs:
       - name: Crowdin download sources
         uses: crowdin/github-action@v1
         with: 
-          upload_sources: false
+          upload_sources: true
           upload_translations: false
           download_translations: false
           download_sources: true
