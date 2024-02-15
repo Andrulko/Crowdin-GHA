@@ -16,7 +16,7 @@ jobs:
           upload_translations: false
           download_translations: false
           download_sources: true
-          download_sources_args: --reviewed
+          download_sources_args: --reviewed -c crowdin.yml
           create_pull_request: false
           localization_branch_name: main
         env:
