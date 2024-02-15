@@ -3,9 +3,6 @@
 "base_url": "https://andriy.api.crowdin.com"
 "preserve_hierarchy": true
 
-files: [
-  {
-    "source": "/hyperMILL_Package/installation/HCNT_DOC.loc",
+files: 
+  - "source": "/hyperMILL_Package/installation/HCNT_DOC.loc"
     "translation": "/hyperMILL_Package/installation/%file_name%.%locale%.%file_extension%"
-  }
-]
