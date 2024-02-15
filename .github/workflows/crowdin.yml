@@ -16,8 +16,6 @@ jobs:
           upload_translations: false
           download_translations: false
           create_pull_request: false
-          command: 'download sources'
-          command_args: '--config=crowdin.yml --reviewed'
           localization_branch_name: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
