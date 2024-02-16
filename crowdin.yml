@@ -4,5 +4,5 @@
 "preserve_hierarchy": true
 
 files: 
-  - "source": "/hyperMILL_Package/installation/HCNT_DOC.loc"
-    "translation": "/hyperMILL_Package/installation/%file_name%.%locale%.%file_extension%"
+  - "source": "/Application/Installation/HCNT_DOC.loc"
+    "translation": "/Application/Installation/%file_name%.%locale%.%file_extension%"
