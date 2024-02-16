@@ -1,4 +1,3 @@
 # Crowdin-GHA
 
-Testing GHA
-
+Testing GHA for Crowdin
