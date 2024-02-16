@@ -5,4 +5,6 @@
 
 files: 
   - "source": "/Application/Installation/HCNT_DOC.loc"
+    "dest": /Application/Installation/%file_name%.tsv"
+    "type": tsv
     "translation": "/Application/Installation/%file_name%.%locale%.%file_extension%"
