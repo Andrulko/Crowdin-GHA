@@ -24,6 +24,7 @@ jobs:
           pull_request_base_branch_name: main
           commit_message: New Crowdin translations by GitHub Action
           localization_branch_name: l10n_crowdin_translations
+          crowdin_branch_name: rate-limiter
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
